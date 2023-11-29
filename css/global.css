@@ -1,0 +1,22 @@
+@import "reset.css";
+@import "variable.css";
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+  min-height: 50px;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.bullet{
+  list-style: disc;
+}
+
+img[src$=".svg"]{
+  max-height: 140px;
+}
