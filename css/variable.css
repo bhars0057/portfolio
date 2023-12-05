@@ -1,0 +1,24 @@
+:root {
+  --primary: #25A0F4;
+  --bs-primary: #25a0f4;
+  --bs-primary-rgb: 37,160,244;
+}
+
+.btn, .btn-outline-primary{
+  --bs-btn-color: var(--primary);
+  --bs-btn-border-color: var(--primary);
+  --bs-btn-hover-bg: var(--primary);
+  --bs-btn-hover-border-color: var(--primary);
+  --bs-btn-active-bg: var(--primary);
+  --bs-btn-active-border-color: var(--primary);
+  --bs-btn-disabled-color: var(--primary);
+  --bs-btn-disabled-border-color: var(--primary);
+}
+
+.navbar{
+  --bs-navbar-active-color: var(--primary);
+}
+
+.progress-bar{
+  background-color: var(--primary);
+}

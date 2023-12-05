@@ -20,3 +20,17 @@ body{
 img[src$=".svg"]{
   max-height: 140px;
 }
+
+strong{
+  font-weight: 700;
+  color: var(--primary);
+}
+
+nav .active{
+  font-weight: bold;
+}
+
+input::placeholder, textarea::placeholder{
+  color: rgba(0, 0, 0, 0.25)!important;
+}
+
